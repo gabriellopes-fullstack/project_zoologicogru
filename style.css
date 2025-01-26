@@ -10,6 +10,9 @@ h1 {
     color: black;
 }
 
-#cabecalho nav a{
+header {
+}
+
+#cabecalho nav{
     color: black;
 } 
