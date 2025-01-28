@@ -36,10 +36,6 @@ header {
     height: 92vh;
 }
 
-body {
-    background: #23232e;
-}
-
 .nav-list {
     list-style: none;
     display: flex;
@@ -96,3 +92,38 @@ body {
     }
 
 }
+
+.titulo {
+    color: #000;
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 4em;
+}
+
+.paragrafo {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: 4em;
+}
+
+#sobre {
+    display: flex;
+    padding: 20px 20px;
+}
+
+main {
+    background: #dfdc98;
+}
+
+
+
