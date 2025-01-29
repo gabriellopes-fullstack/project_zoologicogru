@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
 
 * {
     margin: 0;
@@ -16,10 +16,18 @@ a:hover {
     opacity: 0.7;
 }
 
+main {
+    background: #23232e;
+}
+
 .logo {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+}
+
+.logo:hover {
+    color: coral;
 }
 
 nav {
@@ -36,14 +44,14 @@ header {
     height: 92vh;
 }
 
-.nav-list {
+.nav-list {    
     list-style: none;
     display: flex;
 }
 
 .nav-list li {
-    letter-spacing: 3px;
-    margin-left: 32px;
+    letter-spacing: 4px;
+    margin-left: 20px;
 }
 
 .mobile-menu {
@@ -51,7 +59,8 @@ header {
     display: none;
 }
 
-.mobile-menu div {
+.mobile-menu 
+div {
     width: 32px;
     height: 2px;
     background: #ffffff;
@@ -93,36 +102,25 @@ header {
 
 }
 
-.titulo {
-    color: #000;
-    font-size: 2em;
-    font-weight: bold;
-    padding: 10px;
-    text-align: center;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin: 4em;
-}
-
-.paragrafo {
-    color: #000;
-    display: flex;
-    flex-direction: column;
-    font-size: 1em;
-    font-weight: 400;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin: 4em;
-}
-
 #sobre {
     display: flex;
     padding: 30px 30px;
 }
 
-main {
-    background: #dfdc98;
+.title {
+    font-size: 5rem;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
 }
 
+.title span {
+    color:coral;
+    text-transform: uppercase;
+}
+
+.about {
+    
+}
 
 
