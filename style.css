@@ -168,3 +168,33 @@ div {
     letter-spacing: 0.1rem;
 }
 
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.button.active {
+    background-color: black;
+    color: yellow;
+}
+
+.nav-catg {
+    justify-content: center;
+    letter-spacing: 6px;
+
+}
+
+.conclusao {
+    
+}
