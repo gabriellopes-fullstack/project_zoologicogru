@@ -35,8 +35,7 @@ Contribuições são sempre bem-vindas! Para contribuir, siga estas etapas:
 
 ## Autores
 
-* Gabriel Lopes
-
+* Dev Gabriel Lopes
 ## Licença
 
 Este projeto está sob a licença MIT.
