@@ -159,9 +159,38 @@ section {
 .nav-catg {
     justify-content: center;
     letter-spacing: 6px;
+}
 
+.nav-catg a {
+    color: #fff;
+    justify-content: center;
 }
 
 .fim-list {
     justify-content: center;
+}
+
+#animalstitle {
+    font-size: 5rem;
+    color: rgb(45, 248, 140);
+    text-align: center;
+    text-transform: uppercase;letter-spacing: 0.6rem;
+}
+
+.repteis img {
+    display: inline-block;
+    margin: 2px;
+    padding: 0.5rem;
+    background-color:   lightgoldenrodyellow;
+    align-items: center;
+    border: 1px solid #000;
+    width: 39vh; 
+}
+
+.catg-sub-title {
+    color: lightgoldenrodyellow ;
+    text-align: center;
+    padding: 1.5rem 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
 }
