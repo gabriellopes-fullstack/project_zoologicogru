@@ -95,7 +95,7 @@ section {
 }
 
 .about .row .content {
-    padding-top: 10rem;
+    padding-top: 3rem;
 }
 
 .about .row .content h3{
@@ -132,6 +132,8 @@ section {
 
 .btn:hover {
     background-color: aquamarine;
+    border-radius: 20px;
+    transition: 0.4s linear;
 }
 
 .button-box {
@@ -172,6 +174,12 @@ section {
 
 .fim-list p {
     color: lightgoldenrodyellow;
+    text-align: justify;
+}
+
+.fim-paragraht {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 #animalstitle {
@@ -179,6 +187,7 @@ section {
     color: lightgoldenrodyellow;
     text-align: center;
     text-transform: uppercase;letter-spacing: 0.6rem;
+    padding-top: 4rem;
 }
 
 .aves img {
@@ -242,4 +251,5 @@ section {
 
 .animals a:hover {
     color: aquamarine;
+    transition: 0.5s linear;
 }
