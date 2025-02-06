@@ -39,7 +39,7 @@ body {
 }
 
 .logo a:hover {
-    color: #fff;
+    color: lightgoldenrodyellow;
 }
 
 .navbar a {
@@ -61,7 +61,7 @@ body {
 }
 
 #navbar:hover {
-    color: white;
+    color: lightgoldenrodyellow;
 }
 
 section {
@@ -77,13 +77,13 @@ section {
 
 .title {
     font-size: 5rem;
-    color: #ffffff;
+    color: cyan;
     text-align: center;
     text-transform: uppercase;letter-spacing: 0.6rem;
 }
 
 .title span {
-    color:rgb(55, 170, 243);
+    color:rgb(45, 248, 140);
     text-transform: uppercase;
 }
 
@@ -121,7 +121,7 @@ section {
 }
 
 .btn {
-    background-color: deepskyblue;
+    background-color: lightgoldenrodyellow;
     color: #23232e;
     padding: 1rem 3rem;
     font-size: 1.7rem;
@@ -131,7 +131,7 @@ section {
 }
 
 .btn:hover {
-    letter-spacing: 0.1rem;
+    background-color: aquamarine;
 }
 
 .button-box {
@@ -170,11 +170,36 @@ section {
     justify-content: center;
 }
 
+.fim-list p {
+    color: lightgoldenrodyellow;
+}
+
 #animalstitle {
     font-size: 5rem;
-    color: rgb(45, 248, 140);
+    color: lightgoldenrodyellow;
     text-align: center;
     text-transform: uppercase;letter-spacing: 0.6rem;
+}
+
+.aves img {
+    display: inline-block;
+    margin: 2px;
+    padding: 0.5rem;
+    background-color:   lightgoldenrodyellow;
+    align-items: center;
+    border: 1px solid #000;
+    width: 39vh; 
+}
+
+.mamiferos img {
+    display: inline-block;
+    margin: 2px;
+    padding: 0.5rem;
+    background-color:   lightgoldenrodyellow;
+    align-items: center;
+    border: 1px solid #000;
+    width: 39vh; 
+    height: 25vh;
 }
 
 .repteis img {
@@ -193,4 +218,28 @@ section {
     padding: 1.5rem 1.5rem;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
+}
+
+.fim-title {
+    font-size: 5rem;
+    color: lightgoldenrodyellow;
+    text-align: center;
+    text-transform: uppercase;letter-spacing: 0.6rem;   
+}
+
+.animals nav {
+    margin: 1rem;
+    padding-left: 22rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+}
+
+.animals a {
+    color: mediumslateblue;
+}
+
+.animals a:hover {
+    color: aquamarine;
 }
